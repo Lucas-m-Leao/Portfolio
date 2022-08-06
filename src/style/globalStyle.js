@@ -13,5 +13,6 @@ export default createGlobalStyle`
     :root{
         --black:#000000;
     }
+   
 }
 `
