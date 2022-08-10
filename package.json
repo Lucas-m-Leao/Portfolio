@@ -1,48 +1,26 @@
 {
-  "name": "atividade01",
-  "version": "0.1.0",
+  "name": "kenzie-portfolio-2",
   "private": true,
-  "dependencies": {
-    "@hookform/resolvers": "^2.9.7",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "axios": "^0.27.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.34.0",
-    "react-icons": "^4.4.0",
-    "react-lottie": "^1.2.3",
-    "react-router-dom": "6",
-    "react-scripts": "5.0.1",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.0",
-    "yup": "^0.32.11"
-  },
+  "version": "0.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "framer-motion": "^6.4.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5",
+    "use-media": "^1.4.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
   }
 }

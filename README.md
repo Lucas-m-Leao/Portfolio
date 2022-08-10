@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+  
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💻 Portfólio
+============
 
-## Available Scripts
+Projeto desenvolvido para os alunos da Kenzie Academy Brasil, com a finalidade de fornecer um portfólio profissional demonstrando de forma objetiva suas capacidades de técnicas e resolução de problemas, por meio de uma interface simples, moderna e intuitiva.
 
-In the project directory, you can run:
+  
+  
 
-### `yarn start`
+* * *
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎲 Utilizando projeto
+---------------------
 
-### `yarn test`
+### ▪️ Baixando projeto e instalando dependências
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para utilizar o projeto basta fazer o fork do repositório em computador e ao baixar realizar o download das dependências do site com o comando: `yarn`
 
-### `yarn build`
+### ▪️ Iniciando visualização do projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ao finalizar o download das dependências, inicie a visualização do projeto em ambiente de desenvolvimento com o comando: `yarn dev`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* * *
 
-### `yarn eject`
+🗂 Estrutura de pastas
+----------------------
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Todas as pastas são comuns de um projeto React, porém queremos chamar atenção para alguns arquivos que são fundamentais para a customização das informações no site
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Segue as informações sobre cada um:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   #### 🗂 Pasta utils
+    
+    _Nessa pasta você encontrará dois arquivos que ficarão responsáveis pelas informações exibidas no portfólio_
+    
+    *   **📄 userData.ts**
+        
+        _Nesse arquivo você pode fazer a troca das informações do objeto **UserData** para que reflita nas informações do portfólio_
+        
+        *   **nameUser:** _Nome que aparecerá como logotipo da página, bem como em outras seções onde existe alguma apresentação pessoal_
+            
+        *   **githubUser:** _Essa informação é bastante importante para que os repositórios sejam exibidos, bem como o link do seu github e a imagem de perfil que ficará disponível na página_
+            
+        *   **linkedinUser:** _Inserindo o usuário do seu linkedin será gerado um link para que os usuários acessem seu LinkedIn_
+            
+        *   **whatsappNumber:** _Nessa propriedade você precisará inserir seu DDD junto com o seu número do whatsapp, assim quem clicar no link "whatsapp" irá ser enviado para o seu contato já com uma mensagem pré-definida_
