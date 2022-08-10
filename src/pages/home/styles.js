@@ -7,4 +7,6 @@ justify-content: center;
 `
 export const ContainerInternal = styled.div`
 width: 85%;
+display: flex;
+flex-direction: column;
 `

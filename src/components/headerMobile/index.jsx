@@ -8,7 +8,6 @@ import {
   MenuStyledClose,
   MenuStyledOpen,
 } from "./styles";
-
 const HeaderMobile = () => {
   const [menu, setMenu] = useState("");
   return (

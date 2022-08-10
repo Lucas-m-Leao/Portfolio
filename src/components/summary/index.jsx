@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Lottie from "react-lottie";
 import animação1 from "../../assets/animation/imagem1.json";
+import { Container } from "./styles";
 const Summary = () => {
   const defaultOptions = {
     loop: true,
@@ -10,13 +11,13 @@ const Summary = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-  const [animateState, SetAnimateState] = useState({
+  const [animateState] = useState({
     isStopped: false,
     isPaused: false,
   });
 
   return (
-    <>
+    <Container>
       <div>
         <Lottie
           options={defaultOptions}
@@ -35,7 +36,7 @@ const Summary = () => {
         </p>
         <p>Nolan Bushnell</p>
       </section>
-    </>
+    </Container>
   );
 };
 
